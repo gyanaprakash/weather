@@ -10,10 +10,14 @@
 		BCBEA5E81A04D76000ACBAD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA5E71A04D76000ACBAD1 /* main.m */; };
 		BCBEA5EB1A04D76000ACBAD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA5EA1A04D76000ACBAD1 /* AppDelegate.m */; };
 		BCBEA5EE1A04D76000ACBAD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA5ED1A04D76000ACBAD1 /* ViewController.m */; };
-		BCBEA5F11A04D76000ACBAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCBEA5EF1A04D76000ACBAD1 /* Main.storyboard */; };
 		BCBEA5F31A04D76000ACBAD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCBEA5F21A04D76000ACBAD1 /* Images.xcassets */; };
 		BCBEA5F61A04D76000ACBAD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCBEA5F41A04D76000ACBAD1 /* LaunchScreen.xib */; };
 		BCBEA6021A04D76000ACBAD1 /* weatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA6011A04D76000ACBAD1 /* weatherTests.m */; };
+		BCBEA60C1A04D88200ACBAD1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCBEA60B1A04D88200ACBAD1 /* ViewController.xib */; };
+		BCBEA60F1A04D92000ACBAD1 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA60E1A04D92000ACBAD1 /* WXCondition.m */; };
+		BCBEA6161A04D92F00ACBAD1 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA6111A04D92F00ACBAD1 /* WXManager.m */; };
+		BCBEA6171A04D92F00ACBAD1 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA6131A04D92F00ACBAD1 /* WXDailyForecast.m */; };
+		BCBEA6181A04D92F00ACBAD1 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBEA6151A04D92F00ACBAD1 /* WXClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +38,20 @@
 		BCBEA5EA1A04D76000ACBAD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BCBEA5EC1A04D76000ACBAD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BCBEA5ED1A04D76000ACBAD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BCBEA5F01A04D76000ACBAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCBEA5F21A04D76000ACBAD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCBEA5F51A04D76000ACBAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCBEA5FB1A04D76000ACBAD1 /* weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBEA6001A04D76000ACBAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCBEA6011A04D76000ACBAD1 /* weatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherTests.m; sourceTree = "<group>"; };
+		BCBEA60B1A04D88200ACBAD1 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BCBEA60D1A04D92000ACBAD1 /* WXCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCondition.h; sourceTree = "<group>"; };
+		BCBEA60E1A04D92000ACBAD1 /* WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCondition.m; sourceTree = "<group>"; };
+		BCBEA6101A04D92F00ACBAD1 /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManager.h; sourceTree = "<group>"; };
+		BCBEA6111A04D92F00ACBAD1 /* WXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXManager.m; sourceTree = "<group>"; };
+		BCBEA6121A04D92F00ACBAD1 /* WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDailyForecast.h; sourceTree = "<group>"; };
+		BCBEA6131A04D92F00ACBAD1 /* WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDailyForecast.m; sourceTree = "<group>"; };
+		BCBEA6141A04D92F00ACBAD1 /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXClient.h; sourceTree = "<group>"; };
+		BCBEA6151A04D92F00ACBAD1 /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +97,15 @@
 				BCBEA5EA1A04D76000ACBAD1 /* AppDelegate.m */,
 				BCBEA5EC1A04D76000ACBAD1 /* ViewController.h */,
 				BCBEA5ED1A04D76000ACBAD1 /* ViewController.m */,
-				BCBEA5EF1A04D76000ACBAD1 /* Main.storyboard */,
+				BCBEA60B1A04D88200ACBAD1 /* ViewController.xib */,
+				BCBEA60D1A04D92000ACBAD1 /* WXCondition.h */,
+				BCBEA60E1A04D92000ACBAD1 /* WXCondition.m */,
+				BCBEA6101A04D92F00ACBAD1 /* WXManager.h */,
+				BCBEA6111A04D92F00ACBAD1 /* WXManager.m */,
+				BCBEA6121A04D92F00ACBAD1 /* WXDailyForecast.h */,
+				BCBEA6131A04D92F00ACBAD1 /* WXDailyForecast.m */,
+				BCBEA6141A04D92F00ACBAD1 /* WXClient.h */,
+				BCBEA6151A04D92F00ACBAD1 /* WXClient.m */,
 				BCBEA5F21A04D76000ACBAD1 /* Images.xcassets */,
 				BCBEA5F41A04D76000ACBAD1 /* LaunchScreen.xib */,
 				BCBEA5E51A04D76000ACBAD1 /* Supporting Files */,
@@ -199,8 +219,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBEA5F11A04D76000ACBAD1 /* Main.storyboard in Resources */,
 				BCBEA5F61A04D76000ACBAD1 /* LaunchScreen.xib in Resources */,
+				BCBEA60C1A04D88200ACBAD1 /* ViewController.xib in Resources */,
 				BCBEA5F31A04D76000ACBAD1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBEA6181A04D92F00ACBAD1 /* WXClient.m in Sources */,
+				BCBEA6161A04D92F00ACBAD1 /* WXManager.m in Sources */,
+				BCBEA6171A04D92F00ACBAD1 /* WXDailyForecast.m in Sources */,
 				BCBEA5EE1A04D76000ACBAD1 /* ViewController.m in Sources */,
 				BCBEA5EB1A04D76000ACBAD1 /* AppDelegate.m in Sources */,
+				BCBEA60F1A04D92000ACBAD1 /* WXCondition.m in Sources */,
 				BCBEA5E81A04D76000ACBAD1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +268,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCBEA5EF1A04D76000ACBAD1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCBEA5F01A04D76000ACBAD1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCBEA5F41A04D76000ACBAD1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
